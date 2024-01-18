@@ -1,3 +1,12 @@
+body{
+ padding-top: 90px;
+ padding-left: 300px;
+ padding-right: 200px;
+ /* width: 1600px; */
+ font-family: 'Times New Roman', Times, serif;
+}
+
+
 @import'./header';
- 
 @import'./base/normalize.scss';
+@import'./body';

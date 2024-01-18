@@ -1,10 +1,4 @@
-body{
-    padding-top: 90px;
-    padding-left: 300px;
-    padding-right: 200px;
-    /* width: 1600px; */
-    font-family: 'Times New Roman', Times, serif;
-}
+
 .people{
     display: flex;
    width: 700px;
@@ -33,3 +27,9 @@ body{
     margin: 0;
     padding: 2px;
 }
+.main_content {
+    display: flex;
+   }
+   .about{
+    width: 200px;
+   }
