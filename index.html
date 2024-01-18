@@ -7,151 +7,201 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./sass/main.scss">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./base/_normalize.scss">
     <title>Resume</title>
 </head>
 <body>
     <!--Main-->
+
+<div class="main_content">
+
+    <div class="wrap_sidebar">  
+        <div class="border_img"><img src="./img/photo_2024-01-18_11-03-27.jpg" alt="Diana Pahaliuk" width="320" height="340"></div>  
+        <aside class="sidebar">
+        
+        <!--Contacts-->
+            <div class="contacts">
+                <h3 class="sidebar_title">Contacts</h3>
+                <div>
+                    <p>
+                    <span class="contact_type">C:</span>
+                    <a href="tel:+380666616695" class="contact_link">+380 66 66 166 95</a>
+                    
+                    </p>
+                <p>
+                    <span class="contact_type">E:</span>
+                    <a href="mailto:dinara.alieva17@gmail.com" class="contact_link">dinara.alieva17@gmail.com</a> 
+                </p>
+            </div>
+            </div>
+        <!--Tech skills-->
+        <div class="tech_skill">
+            <h3 class="sidebar_title">Tech Skills</h3>
+            <div>
+                <ul class="tech_skill_list">
+                    <li class="tech_skill_item"> <span class="tech_skill_text">HTML5</span></li>
+                    <li class="tech_skill_item"> <span class="tech_skill_text">CSS3</span></li>
+                    <li class="tech_skill_item"> <span class="tech_skill_text">SASS</span></li>
+                    <li class="tech_skill_item"> <span class="tech_skill_text">GIT</span></li>
+                </ul>
+            </div>
+            </div>
+            <!--Soft skill-->
+
+            <div class="soft_skill">
+                <h3 class="sidebar_title">Studying now</h3>
+                <div>
+                    <ul class="tech_skill_list">
+                        <li class="tech_skill_item"> <span class="tech_skill_text">NoSQL</span></li>
+                        <li class="tech_skill_item"> <span class="tech_skill_text">Python</span></li>
+                        <li class="tech_skill_item"> <span class="tech_skill_text"></span></li>
+                        <li class="tech_skill_item"> <span class="tech_skill_text"></span></li>
+                        <li class="tech_skill_item"> <span class="tech_skill_text"></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="soft_skill">
+            <h3 class="sidebar_title">Soft skill</h3>
+            <div>
+                <ul class="soft_skill_list">
+                    <li class="soft_skill_item"> <span class="soft_skill_text">Agile</span></li>
+                    <li class="soft_skill_item"> <span class="soft_skill_text">Teamwork</span></li>
+                    <li class="soft_skill_item"> <span class="soft_skill_text">Reasonable</span></li>
+                    <li class="soft_skill_item"> <span class="soft_skill_text">Constitutive</span></li>
+                </ul>
+            </div>
+        </div>
+        </aside>
+</div>
+
     <div class="main">
-         <!--Main content-->
-         <div class="main_content">
+        <!--Main content-->
+        <div class=" container">
                 <!--About user-->
-                  <div class="about">
+                <div class="about">
                     <h2 class="about_position">Front-End Developer</h2>    
                     <h1 class="about_name">Pahaliuk Diana</h1>
-                   <p class="about_description">Lorem ipsum dolor sit amet, consectetur
-                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                      magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                     commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                  </div>
-
-                  <div><img src="./img/photo_2022-11-28_15-09-52.jpg" alt="" width="300"></div>
-         </div>
-    </div>
-                  <!--Projects-->
-                  <div class="projects">
-                      <h3 class="title">
-                          Projects
-                        </h3> 
-
-                      <ol class="projects_list">
-                          <li class="projects_item">
-                              <span class="project"><a href="https://hellenglish.goit.global/" class="project_link">https://hellenglish.goit.global/</a> 
-                                ..........<span class="project_bracket">[</span>  HTML5, CSS3 <span class="project_bracket">]</span>
+                    <p class="about_description">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                </div>
+               
+        </div>
+    
+                <!--Projects-->
+            <div class="projects container">
+                <h3 class="title">Projects</h3> 
+                    <ol class="projects_list">
+                        <li class="projects_item">
+                            <span class="project"><a href="https://diana323.github.io/GoIt_Markup_8_Adaptiv/" class="project_link">GoIt_Markup</a> 
+                                ..........<span class="project_bracket">[</span>  HTML5, CSS3, SCSS <span class="project_bracket">]</span>
                             </span>                             
-                          </li>
-                          <li class="projects_item">
-                              <span class="project"><a href="https://cryptohub.goit.global/" class="project_link">https://cryptohub.goit.global/</a>
-                                ............<span class="project_bracket">[</span> JavaScript <span class="project_bracket">]</span>
+                        </li>
+                        <li class="projects_item">
+                            <span class="project"><a href=" https://diana323.github.io/summary/ ." class="project_link">summary</a>
+                                ............<span class="project_bracket">[</span> HTML5, CSS3, SCSS <span class="project_bracket">]</span>
                             </span>
-                          </li>
-                          <li class="projects_item">
-                             <span class="project"><a href="https://kidslike.goit.global/" class="project_link">https://kidslike.goit.global/</a>
-                                ...................<span class="project_bracket">[</span> React.js, Node.js <span class="project_bracket">]</span>
+                        </li>
+                        <li class="projects_item">
+                            <span class="project"><a href="https://diana323.github.io/Science-Magazine/" class="project_link">Science-Magazine Test</a>
+                                .........<span class="project_bracket">[</span> HTML5, CSS3, SCSS ,JS<span class="project_bracket">]</span>
                             </span>
-                          </li>
-                      </ol>
-                      </div>
-                  <!--Work-->
-                  <div class="work">
-                      <h3 class="title">Work Experience</h3>
-                      <!--Company 1-->
-                      <div>
-                          <h4 class="work_position"> <span class="organization">Department of Labor and Social Protection</span> </h4>
-                          <p class="period">January 2005 - January 2007<span class="line">|</span> Country</p>
-                          <ul class="work_list">
-                              <li class="work_list_item">Ensuring the operation of computer equipment</li>
-                              <li class="work_list_item">Building and maintaining a network</li>
-                              <li class="work_list_item">Software settings</li>
-                              <li class="work_list_item">Maintenance of computer equipment</li>
-                          </ul>
-                      </div>
-                      <!--Company 2-->
-                      <div>
-                          <h4 class="work_position">Tax Inspector <span class="organization">Tax Administration</span></h4>
-                          <p class="period">January 2007 - April 2015 <span class="line">|</span> Country</p>
-                          <ul class="work_list">
-                              <li class="work_list_item">Tax reporting</li>
-                              <li class="work_list_item">Tax advice</li>
-                              <li class="work_list_item">Issuance of tax numbers</li>
-                          </ul>
-                      </div>
-                      <!--Company 3-->
-                      <div>
-                          <h4 class="work_position">Director <span class="organization">Individual entrepreneur</span></h4>
-                          <p class="period">August 2016 - August 2020 <span class="line">|</span> Country</p>
-                          <ul class="work_list">
-                              <li class="work_list_item">Direct digital printing on textiles</li>
-                              <li class="work_list_item">Store site administration</li>
-                          </ul>
+                        </li>
+                        <li class="projects_item">
+                            <span class="project"><a href="https://diana323.github.io/test1/" class="project_link">Test 1</a>
+                                ...................<span class="project_bracket">[</span> HTML5, CSS3, SCSS<span class="project_bracket">]</span>
+                            </span>
+                        </li>
+                        <li class="projects_item">
+                            <span class="project"><a href=" https://diana323.github.io/testGame/" class="project_link">testGame</a>
+                                ...................<span class="project_bracket">[</span>Python<span class="project_bracket">]</span>
+                            </span>
+                        </li>
+                        <li class="projects_item">
+                            <span class="project"><a href=" https://diana323.github.io/advertising/" class="project_link">advertising</a>
+                                ...................<span class="project_bracket">[</span> HTML5, CSS3, SCSS<span class="project_bracket">]</span>
+                            </span>
+                            <li class="projects_item">
+                                <span class="project"><a href="https://diana323.github.io/serg_test_1/" class="project_link">Test2 Lend</a>
+                                    ...................<span class="project_bracket">[</span> HTML5, CSS3<span class="project_bracket">]</span>
+                                </span>
+                                <li class="projects_item">
+                                    <span class="project"><a href="#" class="project_link">TelegramChatBot</a>
+                                        ...................<span class="project_bracket">[</span> Python<span class="project_bracket">]в разработке</span>
+                                    </span>
+                            </li>
+                        </li>
+                    </ol>
+                    </div>
+                <!--Work-->
+                <div class="work container">
+                    <h3 class="title">Work Experience</h3>
+                    <!--Company 1-->
+                    <div>
+                        <h4 class="work_position">children's clothing seller<span class="organization"></span></h4>
+                        <p class="period">August 2017 - December 2019 <span class="line">|</span> Country Ukraine</p>
+                        <ul class="work_list">
+                            <li class="work_list_item">conducting an inventory</li>
+                            <li class="work_list_item">receiving the goods</li>
+                            <li class="work_list_item">sale of goods</li>
+                        </ul>
+                    </div>
+                    <!--Company 2-->
+                    <div>
+                        <h4 class="work_position"> <span class="organization">logistics forwarder cargo transportation</span> </h4>
+                        <p class="period">January 2020 - October 2022<span class="line">|</span> Country Ukraine</p>
+                        <ul class="work_list">
+                            <li class="work_list_item">loading the goods at the destination</li>
+                            <li class="work_list_item">keeping track of goods</li>
+                            <li class="work_list_item">transportation of goods in clear terms</li>
+                            <li class="work_list_item">unloading the goods at the destination</li>
+                            
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="work_position">computer operator, product receiver<span class="organization">in a grocery supermarket</span> </h4>
+                        <p class="period">November 2022 - September 2023<span class="line">|</span> Country Ukraine</p>
+                        <ul class="work_list">
+                            <li class="work_list_item">work with 1с</li>
+                            <li class="work_list_item">receiving the goods, loading data in 1с</li>
+                            <li class="work_list_item">maintenance of order in the team</li>
+                        </ul>
+                    </div>
+                    <!--Company 3-->
+                    <div>
+                        <h4 class="work_position">manager<span class="organization">call center</span></h4>
+                        <p class="period">June 2023 - December 2023 <span class="line">|</span> Country Ukraine</p>
+                        <ul class="work_list">
+                            <li class="work_list_item">customer consultation</li>
+                            <li class="work_list_item">maintaining google tables</li>
+                            <li class="work_list_item">work in the SRM system</li>
+                        </ul>
                       </div>
                       <!--Company 4-->
-                      <div>
+                      <!-- <div>
                           <h4 class="work_position">Site support worker <span class="organization">Freelance</span></h4>
                           <p class="period">August 2017 - up to now <span class="line">|</span> Country</p>
                           <ul class="work_list">
                               <li class="work_list_item">Answer questions about the site</li>
                               <li class="work_list_item">Check the operation of the site</li>
                           </ul>
-                      </div>
+                      </div> -->
                   </div>
                   <!--Education-->
-                  <div class="education">
+                  <div class="education container">
                       <h3 class="title">Education</h3>
-                      <h4 class="university">Luhansk University of Internal Affairs</h4>
-                      <h5 class="profession">Jurisprudence</h5>
-                      <p class="period">August 2002 - February 2007 <span class="line">|</span> Country</p>
+                      <h4 class="university">ДНЗ МПЛ м Монастирище</h4>
+                      <h5 class="profession">cook, bartender, waiter</h5>
+                      <p class="period">September 2014 - February 2017 <span class="line">|</span> Country Ukraine</p>
                   </div>
-         </div>
-         <!--Sidebar--> 
-         <aside class="sidebar">
-            <img src="img/diana.jpg" alt="user photo" class="photo">
-            <!--Contacts-->
-            <div class="contacts">
-                <h3 class="sidebar_title">Contacts</h3>
-                <div>
-                    <p>
-                        <span class="contact_type">C:</span>
-                        <a href="tel:+380976905044" class="contact_link">+38 097 690 50 44</a>
-                        
-                    </p>
-                    <p>
-                        <span class="contact_type">E:</span>
-                        <a href="mailto:gorvolol@gmail.com" class="contact_link">gorvolol@gmail.com</a> 
-                    </p>
-                </div>
-              </div>
-            <!--Tech skills-->
-            <div class="tech_skill">
-                <h3 class="sidebar_title">Tech Skills</h3>
-                <div>
-                    <ul class="tech_skill_list">
-                        <li class="tech_skill_item"> <span class="tech_skill_text">HTML5</span></li>
-                        <li class="tech_skill_item"> <span class="tech_skill_text">CSS3</span></li>
-                        <li class="tech_skill_item"> <span class="tech_skill_text">GIT</span></li>
-                        <li class="tech_skill_item"> <span class="tech_skill_text">JavaScript</span></li>
-                        <li class="tech_skill_item"> <span class="tech_skill_text">SQL</span></li>
-                    </ul>
-                </div>
-             </div>
-             <!--Soft skill-->
-             <div class="soft_skill">
-                <h3 class="sidebar_title">Soft skill</h3>
-                <div>
-                    <ul class="soft_skill_list">
-                        <li class="soft_skill_item"> <span class="soft_skill_text">Agile</span></li>
-                        <li class="soft_skill_item"> <span class="soft_skill_text">Teamwork</span></li>
-                        <li class="soft_skill_item"> <span class="soft_skill_text">Reasonable</span></li>
-                        <li class="soft_skill_item"> <span class="soft_skill_text">Constitutive</span></li>
-                    </ul>
-                </div>
-            </div>
-         </aside>
-
-    </div>
-       
+   </div>
+<!--Sidebar--> 
+    
+</div>
+</div>
 </body>
 </html>
 
